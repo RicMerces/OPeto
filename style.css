@@ -1,5 +1,7 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
 }
 
 
@@ -61,7 +63,7 @@
 /* Banner */
 
 .bannerInicial{
-    background: #7300ff;
+    background: #7400FF;
     color: #FCBF02;
     height: 360px;
 }
@@ -69,6 +71,7 @@
 .bannerInicial  h1{
     width: 380px;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .bannerInicial p {
@@ -83,4 +86,76 @@
     margin-left: 100px;
     float: inline-end;
     height: 350px;
+}
+
+/* Tipos de Produtos */
+.ProductTypes{
+    margin-top: 90px;
+}
+
+.ProductTypes h4{
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ProductTypes h4::after{
+    content: "";
+    width: 90px;
+    height: 5px;
+    background: #7400FF;
+    margin: 10px auto 0;
+    display: block;
+    border-radius: 30px;
+}
+
+
+.ProductTypes{
+    text-align: center;
+}
+
+.ProductTypes ul{
+   list-style: none;
+}
+
+.ProductTypes ul li{
+    margin: 10px;
+    background-color: #FCBF02;
+    min-width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.ProductTypes ul li img{
+    margin: 40px auto 0;
+    height: 192px;
+}
+
+
+.ProductTypes ul li p{
+    margin-top: 20px;
+    color: #7400FF;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.ProductTypes p{
+    text-align: center;
+    color: #484B4D;
+    font-size: 18px;
+}
+
+.ProductTypes a button{
+    background: #7400FF;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 197.51px;
+    height: 50.58px;
+    color: #fff;
+    font-weight: bold;
+  
+    
 }
