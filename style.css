@@ -3,13 +3,16 @@
 }
 
 
+
+/* Cabeçalho */
+
 .header{
     background: #7400FF;
     color: #FCBF02;
-    position: fixed;
+    position: static;
     width: 100%;
     padding: 15px 0;
-    z-index: 10;
+    
 }
 
 
@@ -47,4 +50,37 @@
     color: #fff;
     font-weight: bold;
     border-radius: 50px;
+}
+
+.header nav ul li a button:hover{
+    background: #fff;
+    color: #7400FF;
+}
+
+
+/* Banner */
+
+.bannerInicial{
+    background: #7300ff;
+    color: #FCBF02;
+    height: 360px;
+}
+
+.bannerInicial  h1{
+    width: 380px;
+    font-size: 40px;
+}
+
+.bannerInicial p {
+    margin-top: 20px;
+    width: 380px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.bannerInicial img{
+    margin-top: 40px;
+    margin-left: 100px;
+    float: inline-end;
+    height: 350px;
 }
