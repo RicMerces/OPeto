@@ -220,6 +220,7 @@ h4::after{
     font-size: 18px;
     font-weight: bold;
     margin-left: 90px;
+    margin-top: 10px;
 }
 
 
@@ -228,6 +229,7 @@ h4::after{
 }
 
 .OpetoClinica .OpetoClinicabg form div input{
+    margin: 45px 0;
     text-align: center;   
     background: #FCBF02;
     border-radius: 30px;
@@ -237,4 +239,61 @@ h4::after{
     height: 50.58px;
     color: #7400FF;
     font-weight: bold;
+}
+
+
+
+/* Rodape */
+
+footer{
+    background: #280F48;
+    color: #fff;
+    padding: 40px;
+   
+}
+
+footer div{
+    padding: 30px auto;
+    align-content: center;
+}
+
+footer div h4{
+    text-align: start;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+footer h4::after{
+    content: "";
+    width: 90px;
+    height: 5px;
+    background: #FCBF02;
+    margin: 10px 0 0;
+    display: block;
+    border-radius: 30px;
+}
+
+footer div ul{
+    font-size: 18px;
+    margin-left: -20px;
+}
+
+footer div img{
+    width: 200px;
+    margin-top: -20px;
+}
+
+footer div ul li img{
+    width: 50px;
+}
+
+footer #redes ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+footer #redes ul li img{
+    margin-top: 10px;
+    
 }
