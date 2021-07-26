@@ -60,6 +60,10 @@
 }
 
 
+#Ativo{
+    color: #FCBF02;
+}
+
 /* Banner */
 
 .bannerInicial{
@@ -160,6 +164,11 @@ h4::after{
     font-weight: bold;
 }
 
+.ProductTypes a button:hover{
+    background: #FCBF02;
+    color: #7400FF;
+}
+
 
 /* Clinica */
 
@@ -241,6 +250,10 @@ h4::after{
     font-weight: bold;
 }
 
+.OpetoClinica .OpetoClinicabg form div input:hover{
+    background: #280F48;
+    color: #FCBF02;
+}
 
 
 /* Rodape */
