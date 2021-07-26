@@ -314,3 +314,14 @@ footer #redes ul li img{
     margin-top: 10px;
     
 }
+
+.DireitosReservados{
+    padding: 1px;
+    background: #FCBF02;
+    color: #280F48;
+    text-align: center;
+}
+
+.DireitosReservados p{
+    margin-top: 10px;
+}
