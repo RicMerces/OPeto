@@ -182,7 +182,7 @@ h4::after{
 }
 
 .OpetoClinica .Clinica{
-    background: url(Img/veterinario.png) no-repeat center;
+    background: url(../Img/veterinario.png) no-repeat center;
     height: 362.29px;
     width: 100%;
     background-size: cover;
