@@ -26,6 +26,52 @@
 @media only screen and (max-width: 991px){
 
 
+
+    /* Navbar */
+    .DesktopNav button i{
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .DesktopNav ul #Desktopitem{
+        content-visibility: hidden;
+    }
+
+    .MobileNav ul{
+        width: 70%;
+        padding: 20px;
+        background: #FCBF02;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+
+    .header nav ul li a {
+        color: #280F48;
+    }
+    
+    .header nav ul li a:hover {
+        color: #7400FF;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    
+    .header nav ul li a button{
+        background: #FCBF02;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 50px;
+    }
+    
+    .header nav ul li a button:hover{
+        background: #fff;
+        color: #7400FF;
+    }
+    #Ativo{
+        color: #7400FF;
+    }
+
+
     /* Banner Inicial */
     .bannerInicial article h1{
         margin: 0 auto;
@@ -59,9 +105,7 @@
     }
 
 
-    .DesktopNav ul #Desktopitem{
-        content-visibility: hidden;
-    }
+   
 
    
 }
@@ -71,8 +115,6 @@
 
 @media only screen and (min-width: 991px){
 
-    
-  
     
     /* Banner Inicial */
     .bannerInicial .dispositivosPequenos{
