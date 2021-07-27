@@ -11,7 +11,7 @@ Um Petshop e Clinica veterinaria ficticia
 #### 📝 Passo a passo do OPETO
   1. Construção de um Wireframe ✔️
   2. Construção de um Prototipo Figma/XD ✔️
-  3. Construção de uma Pagina HTML
+  3. Construção de uma Pagina HTML ✔️
 
 
 #### 🛠️ Ferramentas 
