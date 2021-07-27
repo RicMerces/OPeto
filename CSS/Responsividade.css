@@ -25,6 +25,8 @@
 
 @media only screen and (max-width: 991px){
 
+
+    /* Banner Inicial */
     .bannerInicial article h1{
         margin: 0 auto;
         text-align: center;
@@ -42,7 +44,8 @@
     .bannerInicial article img{
         display: block;
         margin: 0 auto 40px;
-        height: 300px;
+        height: 100%;
+        width: 100%;
     }
 
 
@@ -50,7 +53,17 @@
         content-visibility: hidden;
     }
     
+    /* Tipos de produtos */
+    .ProductTypes{
+        margin-top: 200px;
+    }
 
+
+    .DesktopNav ul #Desktopitem{
+        content-visibility: hidden;
+    }
+
+   
 }
 
 
@@ -58,7 +71,15 @@
 
 @media only screen and (min-width: 991px){
 
+    
+  
+    
+    /* Banner Inicial */
     .bannerInicial .dispositivosPequenos{
+        content-visibility: hidden;
+    }
+
+    .MobileNav, .navbar-toggler{
         content-visibility: hidden;
     }
 }
@@ -66,6 +87,8 @@
 
 /* Monitor Pequeno */
 @media only screen and (min-width: 992px) and (max-width: 1220px){
+    
+    /* Banner Inicial */
     .bannerInicial img{
         margin-left: 100px;
         height: 260px;
