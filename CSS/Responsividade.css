@@ -1,7 +1,9 @@
 /* Tablets */
 
 
-@media only screen and (min-width: 788px) and (max-width: 979px){
+@media only screen and (min-width: 796px) and (max-width: 991px){
+
+
 
 }
 
@@ -10,7 +12,7 @@
 /* Mobile */
 
 
-@media only screen and (max-width: 787px){
+@media only screen and (max-width: 795px){
 
 
 }
@@ -19,14 +21,56 @@
 /* Ambos */
 
 
-@media only screen and (max-width: 979px){
+/* Apenas TouchDevices */
+
+@media only screen and (max-width: 991px){
+
+    .bannerInicial article h1{
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    
+    .bannerInicial article p {
+        margin-top: 20px;
+        margin: 20px auto 20px;
+        text-align: center;
+        width: 70%;
+
+    }
+
+    .bannerInicial article img{
+        display: block;
+        margin: 0 auto 40px;
+        height: 300px;
+    }
 
 
+    .bannerInicial .imagemBanner, .bannerInicial .textosBanner{
+        content-visibility: hidden;
+    }
+    
+
+}
+
+
+/* Apenas Desktops */
+
+@media only screen and (min-width: 991px){
+
+    .bannerInicial .dispositivosPequenos{
+        content-visibility: hidden;
+    }
 }
 
 
 /* Monitor Pequeno */
-@media only screen and (min-width: 979px) and (max-width: 1999px){
+@media only screen and (min-width: 992px) and (max-width: 1220px){
+    .bannerInicial img{
+        margin-left: 100px;
+        height: 260px;
+    }
     
 
 }
+
