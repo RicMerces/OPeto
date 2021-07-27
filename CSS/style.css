@@ -332,5 +332,55 @@ footer #redes ul li img{
 /* Login BG */
 
 .LoginBG{
+    background: #280F48;
+}
+
+.LoginBox{
+    text-align: center;
+    margin: 150px auto 0;
+    background: #7400FF;
+    height: 550px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.LoginBox label{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: start;
+    color: #FCBF02;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+.LoginBox input{
+    padding-left: 30px;
+    outline: none;
+    border: 0;
+    justify-content: center;
+    height: 50px;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.LoginBox img{
+    height: 150px;
+    margin-bottom: -20px;
+}
+
+.LoginBox button{
     background: #FCBF02;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+}
+
+.LoginBox button:hover{
+    background: #fff;
+    color: #7400FF;
 }
