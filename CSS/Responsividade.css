@@ -31,9 +31,42 @@
 /* Mobile */
 
 
-@media only screen and (max-width: 795px){
+@media (max-width: 575.98px){
     
-    
+.ProductTypes ul li{
+    margin: 0 auto;
+    text-align: center;
+}
+.ProductTypes ul li{
+    margin: 10px auto;
+    background-color: #FCBF02;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+/* 
+.ProductTypes ul li{
+    margin: 10px 30px;
+    background-color: #FCBF02;
+    min-width: 40%;
+    height: 300px;
+    text-align: center;
+} */
+
+
+.bannerInicial article h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: auto;
+    font-size: 28px;
+    width: 70%;
+}
+
+.OpetoClinica .OpetoClinicabg form label input, .OpetoClinica .OpetoClinicabg form label select{
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
 
 }
 
@@ -58,7 +91,7 @@
     }
 
     .MobileNav ul{
-        width: 70%;
+        width: 200px;
         padding: 20px;
         background: #FCBF02;
         border-radius: 20px;
